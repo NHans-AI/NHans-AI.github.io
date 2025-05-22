@@ -21,7 +21,7 @@ export default function Home() {
     {
       name: "João Oliveira",
       position: "CTO (Avisory)",
-      image: "/placeholder.svg",
+      image: "/joao-oliveira.jpg",
       description: "Implementation Manager"
     },
     {
@@ -57,7 +57,7 @@ export default function Home() {
     {
       name: "Nicolas Ishola",
       position: "Process Manager",
-      image: "/placeholder.svg",
+      image: "/nicolas-ishola.jpg",
     },
     {
       name: "Kevyn Marins",
@@ -98,7 +98,7 @@ export default function Home() {
         <section className="py-20 md:py-28 bg-gradient-to-b from-white to-gray-50">
           <div className="container flex flex-col items-center text-center">
             <div className="mb-6">
-              <Image src="/nhansai_square.svg" alt="N-Hans AI" width={120} height={120} className="h-24 w-auto" />
+              <Image src="/nhansai_square.svg" alt="N-Hans AI" width={120} height={120} className="h-32 w-auto" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-[#014994]">
               Transforming Education with AI
