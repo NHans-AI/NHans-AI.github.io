@@ -10,6 +10,12 @@ export const metadata: Metadata = {
   title: "N-Hans AI - Transforming Education with AI",
   description:
     "N-Hans AI provides AI-powered solutions for educational institutions, making information accessible, instant, and multilingual for students worldwide.",
+  icons: {
+    icon: "/nhansai-mini.svg",
+  },
+  openGraph: {
+    images: ["/nhansai-mini.svg"],
+  },
 }
 
 export default function RootLayout({

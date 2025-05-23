@@ -9,7 +9,7 @@ export default function Home() {
     {
       name: "Francisca André",
       position: "CEO",
-      image: "/placeholder.svg",
+      image: "/francisca-andre.png",
       description: "The head of the operation."
     },
     {
@@ -95,7 +95,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-white">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image src="/nhansai.svg" alt="N-Hans AI Logo" width={40} height={40} className="h-32 w-auto" />
+            <Image src="/nhansai.svg" alt="N-Hans AI Logo" width={40} height={40} className="h-12 w-auto" />
             {/* <span className="text-xl font-bold text-[#014994]">N-Hans AI</span> */}
           </div>
           <nav className="hidden md:flex gap-6">
@@ -123,7 +123,7 @@ export default function Home() {
         <section className="py-20 md:py-28 bg-gradient-to-b from-white to-gray-50">
           <div className="container flex flex-col items-center text-center">
             <div className="mb-6">
-              <Image src="/nhansai_square.svg" alt="N-Hans AI" width={120} height={120} className="h-32 w-auto" />
+              <Image src="/nhansai-square.svg" alt="N-Hans AI" width={120} height={120} className="h-32 w-auto" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-[#014994]">
               Transforming Education with AI
@@ -335,7 +335,9 @@ export default function Home() {
                   reference project showcasing our expertise in creating intelligent assistants for educational
                   institutions.
                 </p>
-                <Button className="demo-button w-full">Learn More About UPortoAI</Button>
+                <Link href="#contact">
+                  <Button className="demo-button w-full">Learn More About UPortoAI</Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -384,7 +386,7 @@ export default function Home() {
         {/* Contact Section */}
         <section id="contact" className="py-20 bg-[#014994] text-white">
           <div className="container">
-            <div className="text-center mb-12">
+            <div className="text-center mb-4">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
               <div className="w-20 h-1 bg-[#01a8bd] mx-auto mb-6"></div>
               <p className="max-w-2xl mx-auto">
@@ -393,54 +395,10 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8">
-              <form className="space-y-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#01a8bd]"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#01a8bd]"
-                    placeholder="your.email@example.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="institution" className="block text-sm font-medium text-gray-700 mb-1">
-                    Institution
-                  </label>
-                  <input
-                    type="text"
-                    id="institution"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#01a8bd]"
-                    placeholder="Your institution"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={4}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#01a8bd]"
-                    placeholder="How can we help you?"
-                  ></textarea>
-                </div>
-                <Button className="w-full bg-[#01a8bd] hover:bg-[#018a99]">Send Message</Button>
-              </form>
+            <div className="max-w-2xl mx-auto rounded-lg p-8 text-center text-xl">
+              <Image src="/UPAI-LOGO3.svg" alt="N-Hans AI" width={120} height={120} className="h-48 mx-auto w-auto mb-4" />
+              <h3>If you wish to contact us, please do so through our email</h3>
+              <Link href="mailto:nhansai.lgp23@gmail.com" className="underline">nhansai.lgp23@gmail.com</Link>
             </div>
           </div>
         </section>
@@ -452,7 +410,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
-                <Image src="/nhansai.svg" alt="N-Hans AI Logo" width={40} height={40} className="h-32 w-auto" />
+                <Image src="/nhansai.svg" alt="N-Hans AI Logo" width={40} height={40} className="h-20 w-auto" />
               </div>
               <p className="mb-4">
                 Making university information accessible, instant, and multilingual for students worldwide.
