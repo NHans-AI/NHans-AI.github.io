@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Mail, MessageSquare } from "lucide-react"
 import Link from "next/link"
+import { UniversityFacultiesCarousel } from "@/components/university-faculties-carousel"
 
 export default function Home() {
 
@@ -339,6 +340,23 @@ export default function Home() {
                   <Button className="demo-button w-full">Learn More About UPortoAI</Button>
                 </Link>
               </div>
+            </div>
+
+            {/* University Faculties Showcase */}
+            <div className="mt-20">
+              <div className="text-center mb-12">
+                <h3 className="text-2xl md:text-3xl font-bold mb-4 text-[#014994]">
+                  University Faculties We Support
+                </h3>
+                <div className="w-16 h-1 bg-[#01a8bd] mx-auto mb-6"></div>
+                <p className="text-gray-600 max-w-3xl mx-auto">
+                  Our AI assistant provides comprehensive information about all university faculties. 
+                  Explore the different departments and discover how we can help students access instant, 
+                  accurate information about programs, requirements, and opportunities.
+                </p>
+              </div>
+              
+              <UniversityFacultiesCarousel />
             </div>
           </div>
         </section>
